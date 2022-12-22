@@ -37,6 +37,7 @@ em strong {
 
 .itens {
     font-style: italic;
+    /*modifica a fonte*/
 }
 
 .beneficios {
@@ -46,9 +47,11 @@ em strong {
 
 ul {
     display: inline-block;
+    /*muda o estilo de quebra de linha*/
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
+    /*modifica a margem direita*/
 }
 
 .imagemBeneficios {
