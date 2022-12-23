@@ -1,0 +1,59 @@
+body {
+    background: #FFFFFF;
+}
+
+/* # referencia o id*/
+#banner {
+    width: 100%;
+    /*altera a altura*/
+}
+.tituloPrincipal {
+    padding-left: 20px;
+}
+/*o ponto referencia uma class*/
+.principal {
+    background: #CCCCCC;
+    /*muda a cor de fundo*/   
+    padding: 30px;
+    /*espaçamento interno*/
+}
+.tituloCentralizado {
+    text-align: center;
+    /*alinhamento de texto*/
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color: #FF0000; /*red ou rgb(0,0,255)*/
+    /*muda a cor do texto*/
+}
+
+.itens {
+    font-style: italic;
+    /*modifica a fonte*/
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    /*muda o estilo de quebra de linha*/
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    /*modifica a margem direita*/
+}
+
+.imagemBeneficios {
+    width: 50%;
+}
