@@ -99,7 +99,7 @@ footer {
 }
 
 main {
-
+    
 }
 
 form {
@@ -258,7 +258,7 @@ td, th {
 } 
 
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudoBeneficios, .mapaConteudo, .video {
+    .caixa, .principal, .conteudoBeneficios, .mapaConteudo, .video, .produtos {
         width: auto;
     }
 
@@ -272,6 +272,26 @@ td, th {
 
     .listaBeneficios, .imagemBeneficios {
         width: 100%;
+    }
+    
+    .formulario {
+        text-align: center;
+    }
+    .formulario > .inputPadrao   {
+        margin: 0 20%;
+        margin-bottom: 1em;
+    }
+
+    table {
+        margin: 0 25% 2em;
+    }
+    .produtos li{
+        display: block;
+        width: auto;
+        margin-bottom: 3em;
+    }
+    .enviar {
+        font-size: 15px;
     }
 }
 
