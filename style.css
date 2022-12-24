@@ -278,8 +278,9 @@ td, th {
         text-align: center;
     }
     .formulario > .inputPadrao   {
-        margin: 0 20%;
+        margin: 0 25%;
         margin-bottom: 1em;
+        box-sizing: border-box;
     }
 
     table {
