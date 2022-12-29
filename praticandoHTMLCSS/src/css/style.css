@@ -138,6 +138,7 @@ body {
     display: flex;
     justify-content: center;
     list-style-type: none;
+    margin: 0 8em;
 }
 
 .lista__link {
