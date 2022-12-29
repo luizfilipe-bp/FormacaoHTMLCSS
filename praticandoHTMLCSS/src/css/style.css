@@ -2,6 +2,7 @@
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
+    --botao-azul-efeito: #509af5;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
 }
@@ -43,9 +44,19 @@ body {
     margin-bottom: 1em;
 }
 
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: black;
+    transition: 0.5s;
+}
+
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal);
+}
+
+.botao_secundario:hover {
+    border-color: var(--botao-azul-efeito);
 }
 
 .container__aviso {
@@ -137,6 +148,14 @@ body {
 .lista__link > a {
     text-decoration: none;
     color: var(--branco-principal);
+}
+
+.lista__link > a:hover {
+    color: var(--botao-azul);
+}
+
+.lista__link > a:active {
+    color: purple;
 }
 
 .rodape__texto {
